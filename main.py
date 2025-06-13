@@ -300,8 +300,7 @@ def main():
         paksiminfo()
     elif mninp in ['10']:
         revshells()
-	else:
-		time.sleep(1)
-		main()
+
+
 if __name__=="__main__":
 	main()
